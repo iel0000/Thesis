@@ -1,6 +1,7 @@
 package com.crescent.thesis;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -14,11 +15,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Typeface font = Typeface.createFromAsset(getAssets(), "namo.ttf");
 
-        Button clark = (Button) findViewById(R.id.button);
-        Button sf = (Button) findViewById(R.id.button2);
+        Button touristAtt = (Button) findViewById(R.id.touristAtt);
+        touristAtt.setTypeface(font);
 
-        clark.setOnClickListener(new View.OnClickListener() {
+        Button about = (Button) findViewById(R.id.aboutPampanga);
+        about.setTypeface(font);
+
+        Button credits = (Button) findViewById(R.id.credits);
+        about.setTypeface(font);
+
+        Button map = (Button) findViewById(R.id.map);
+        about.setTypeface(font);
+
+        Button quit = (Button) findViewById(R.id.quit);
+        about.setTypeface(font);
+
+        touristAtt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                     String coord1 = "15.1680832";
                     String coord2 = "120.5795193";
@@ -31,14 +45,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        sf.setOnClickListener(new View.OnClickListener() {
+        about.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String coord1 = "15.0527682";
                 String coord2 = "120.6961653";
-                String marker ="SM Clark";
+                String marker = "SM Clark";
                 Intent i = new Intent(getApplicationContext(), MapsActivity.class);
-                i.putExtra("coordX",coord1);
-                i.putExtra("coordY",coord2);
+                i.putExtra("coordX", coord1);
+                i.putExtra("coordY", coord2);
                 i.putExtra("marker",marker);
                 startActivity(i);
             }
@@ -61,9 +75,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }

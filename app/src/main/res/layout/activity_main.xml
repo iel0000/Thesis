@@ -36,37 +36,45 @@
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="70dp"
-                        android:text="Tourist Attractions"
+                        android:text="        Tourist\n         Attractions"
                         android:id="@+id/touristAtt"
-                        android:background="@drawable/main_menu_btn_left"
+                        android:background="@drawable/menu_main_btn_left"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="130dp"
                         android:gravity="center"
                         android:clickable="true"
-                        android:contextClickable="false" />
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#fefffd"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
 
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="70dp"
                         android:text="Credits"
-                        android:id="@+id/Credits"
-                        android:background="@drawable/main_menu_btn_left"
+                        android:id="@+id/credits"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="30dp"
                         android:gravity="center"
                         android:clickable="true"
-                        android:contextClickable="false" />
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
 
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="70dp"
                         android:text="Quit"
-                        android:background="@drawable/main_menu_btn_left"
                         android:id="@+id/quit"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
                         android:layout_marginTop="30dp"
-                        android:clickable="true" />
+                        android:clickable="true"
+                        android:textAlignment="gravity"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -79,24 +87,29 @@
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="70dp"
-                        android:text="About Pampanga"
+                        android:text="About       \nPampanga     "
                         android:id="@+id/aboutPampanga"
-                        android:background="@drawable/main_menu_btn_right"
+                        android:background="@drawable/menu_main_btn_right"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
                         android:layout_marginTop="170dp"
-                        android:clickable="true" />
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:textAlignment="gravity" />
 
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="70dp"
                         android:text="Show Map"
                         android:id="@+id/map"
-                        android:background="@drawable/main_menu_btn_right"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
                         android:layout_marginTop="40dp"
-                        android:clickable="true" />
+                        android:clickable="true"
+                        android:textAlignment="gravity"
+                        android:textStyle="bold"
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 
