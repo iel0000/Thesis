@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.crescent.thesis.MainActivity"
-    android:background="@drawable/menubg">
+    android:background="@drawable/menu_sub_bg">
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>
@@ -36,11 +36,11 @@
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="60dp"
-                        android:text="       Tourist\n   Attractions"
-                        android:id="@+id/touristAtt"
-                        android:background="@drawable/menu_main_btn_left"
+                        android:text="Cultural"
+                        android:id="@+id/Cultural"
+                        android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="110dp"
+                        android:layout_marginTop="20dp"
                         android:gravity="center"
                         android:clickable="true"
                         android:contextClickable="false"
@@ -52,10 +52,10 @@
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="60dp"
-                        android:text="       Credits"
-                        android:id="@+id/credits"
+                        android:text="Local Wonders"
+                        android:id="@+id/lwonders"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="30dp"
+                        android:layout_marginTop="20dp"
                         android:gravity="center"
                         android:clickable="true"
                         android:contextClickable="false"
@@ -63,60 +63,67 @@
                         android:textSize="17dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_main_btn_left" />
+                        android:background="@drawable/menu_sub_btn" />
 
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="60dp"
-                        android:text="       Quit"
-                        android:id="@+id/quit"
+                        android:text="Parks"
+                        android:id="@+id/parks"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
-                        android:layout_marginTop="30dp"
+                        android:layout_marginTop="20dp"
                         android:clickable="true"
                         android:textAlignment="gravity"
                         android:textSize="17dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_main_btn_left" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_height="fill_parent"
-                    android:layout_width="0dp"
-                    android:layout_weight="1">
+                        android:background="@drawable/menu_sub_btn" />
 
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="60dp"
-                        android:text="About       \nPampanga     "
-                        android:id="@+id/aboutPampanga"
-                        android:background="@drawable/menu_main_btn_right"
+                        android:text="Church"
+                        android:id="@+id/church"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
-                        android:layout_marginTop="150dp"
-                        android:clickable="true"
-                        android:textStyle="bold"
-                        android:textSize="17dp"
-                        android:textAlignment="gravity"
-                        android:textColor="#ffffff" />
-
-                    <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="60dp"
-                        android:text="Show Map      "
-                        android:id="@+id/map"
-                        android:layout_alignParentTop="true"
-                        android:gravity="center"
-                        android:layout_marginTop="30dp"
+                        android:layout_marginTop="20dp"
                         android:clickable="true"
                         android:textAlignment="gravity"
-                        android:textStyle="bold"
                         android:textSize="17dp"
+                        android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_main_btn_right" />
+                        android:background="@drawable/menu_sub_btn" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:text="Land Marks"
+                        android:id="@+id/lmarks"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:textAlignment="gravity"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/menu_sub_btn" />
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:text="Back"
+                        android:id="@+id/back"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:textAlignment="gravity"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/menu_sub_btn" />
 
                 </LinearLayout>
 

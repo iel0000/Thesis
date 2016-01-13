@@ -47,7 +47,8 @@
                         android:textAlignment="gravity"
                         android:textColor="#ffffff"
                         android:textSize="17dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:onClick="showSubMenu"/>
 
                     <Button
                         android:layout_width="fill_parent"
@@ -63,7 +64,8 @@
                         android:textSize="17dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_main_btn_left" />
+                        android:background="@drawable/menu_main_btn_left"
+                        android:onClick="showSubMenu"/>
 
                     <Button
                         android:layout_width="fill_parent"
@@ -78,7 +80,8 @@
                         android:textSize="17dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_main_btn_left" />
+                        android:background="@drawable/menu_main_btn_left"
+                        android:onClick="showSubMenu" />
 
                 </LinearLayout>
 
@@ -101,7 +104,8 @@
                         android:textStyle="bold"
                         android:textSize="17dp"
                         android:textAlignment="gravity"
-                        android:textColor="#ffffff" />
+                        android:textColor="#ffffff"
+                        android:onClick="showSubMenu"/>
 
                     <Button
                         android:layout_width="fill_parent"
@@ -116,7 +120,8 @@
                         android:textStyle="bold"
                         android:textSize="17dp"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_main_btn_right" />
+                        android:background="@drawable/menu_main_btn_right"
+                        android:onClick="showSubMenu"/>
 
                 </LinearLayout>
 

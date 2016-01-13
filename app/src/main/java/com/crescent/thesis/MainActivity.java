@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button quit = (Button) findViewById(R.id.quit);
         quit.setTypeface(font);
-
-        touristAtt.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
+    }
+       // touristAtt.setOnClickListener(new View.OnClickListener() {
+           /* public void onClick(View view) {
                     String coord1 = "15.1680832";
                     String coord2 = "120.5795193";
                     String marker ="SM Clark";
@@ -43,22 +43,41 @@ public class MainActivity extends AppCompatActivity {
                     i.putExtra("marker",marker);
                     startActivity(i);
             }
-        });
+        });*/
 
-        about.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                String coord1 = "15.0527682";
-                String coord2 = "120.6961653";
-                String marker = "SM Clark";
-                Intent i = new Intent(getApplicationContext(), MapsActivity.class);
-                i.putExtra("coordX", coord1);
-                i.putExtra("coordY", coord2);
-                i.putExtra("marker",marker);
-                startActivity(i);
-            }
-        });
+           public void showSubMenu (View view)
+           {
+               String button_test;
+               button_test =((Button) view).getText().toString();
 
-    }
+               if (button_test.equals("       Tourist\n   Attractions"))
+               {
+                   Intent i= new Intent(this,tourist_att_menu.class);
+                   startActivity(i);
+               }
+               else if(button_test.equals("Show Map      "))
+               {
+                   Intent i = new Intent(getApplicationContext(), MapsActivity.class);
+                   String coord1 = "15.156692";
+                   String coord2 = "120.5952847";
+                   String marker ="Pampanga";
+                   i.putExtra("coordX",coord1);
+                   i.putExtra("coordY",coord2);
+                   i.putExtra("marker",marker);
+                   startActivity(i);
+               }
+
+               else if (button_test.equals("       Quit"))
+               {
+                   finish();
+                   System.exit(0);
+               }
+              // Intent i = new Intent(getApplicationContext(), tourist_att_menu.class);
+              // startActivity(i);
+           }
+
+       // });
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

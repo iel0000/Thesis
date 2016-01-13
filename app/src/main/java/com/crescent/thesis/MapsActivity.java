@@ -29,6 +29,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap map) {
 
+        LatLng Pampanga = new LatLng(15.156692, 120.5952847);
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(Pampanga, 10));
+        map.getUiSettings().setZoomControlsEnabled(true);
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String x = extras.getString("coordX");
@@ -38,17 +41,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             Float x1 = Float.parseFloat(x);
             Float y1 = Float.parseFloat(y);
 
-            LatLng Pampanga = new LatLng(15.156692, 120.5952847);
+
+           /* LatLng Pampanga = new LatLng(15.156692, 120.5952847);
             map.moveCamera(CameraUpdateFactory.newLatLngZoom(Pampanga, 10));
+*/
+                // Add a marker in x,y coord, and move the camera.
+                LatLng sm_pampanga = new LatLng(x1, y1);
+                map.addMarker(new MarkerOptions().position(sm_pampanga).title(marker));
+                map.moveCamera(CameraUpdateFactory.newLatLngZoom(sm_pampanga, 15));
 
-            // Add a marker in x,y coord, and move the camera.
-            LatLng sm_pampanga = new LatLng(x1, y1);
-            map.addMarker(new MarkerOptions().position(sm_pampanga).title(marker));
-            map.moveCamera(CameraUpdateFactory.newLatLngZoom(sm_pampanga, 15));
-
-            map.setMyLocationEnabled(true);
-            map.getUiSettings().setMapToolbarEnabled(false);
-            map.getUiSettings().setZoomControlsEnabled(true);
+                map.setMyLocationEnabled(true);
+                map.getUiSettings().setMapToolbarEnabled(false);
+                map.getUiSettings().setZoomControlsEnabled(true);
 
         }
     }
