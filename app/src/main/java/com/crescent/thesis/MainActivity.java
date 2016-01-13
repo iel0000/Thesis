@@ -24,13 +24,13 @@ public class MainActivity extends AppCompatActivity {
         about.setTypeface(font);
 
         Button credits = (Button) findViewById(R.id.credits);
-        about.setTypeface(font);
+        credits.setTypeface(font);
 
         Button map = (Button) findViewById(R.id.map);
-        about.setTypeface(font);
+        map.setTypeface(font);
 
         Button quit = (Button) findViewById(R.id.quit);
-        about.setTypeface(font);
+        quit.setTypeface(font);
 
         touristAtt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
