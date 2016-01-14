@@ -37,7 +37,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="60dp"
                         android:text="Cultural"
-                        android:id="@+id/Cultural"
+                        android:id="@+id/cultural"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="20dp"
@@ -47,7 +47,8 @@
                         android:textAlignment="gravity"
                         android:textColor="#ffffff"
                         android:textSize="17dp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:onClick="showSubMenu"/>
 
                     <Button
                         android:layout_width="fill_parent"
@@ -63,7 +64,8 @@
                         android:textSize="17dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_sub_btn" />
+                        android:background="@drawable/menu_sub_btn"
+                        android:onClick="showSubMenu"/>
 
                     <Button
                         android:layout_width="fill_parent"
@@ -78,7 +80,8 @@
                         android:textSize="17dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_sub_btn" />
+                        android:background="@drawable/menu_sub_btn"
+                        android:onClick="showSubMenu"/>
 
                     <Button
                         android:layout_width="fill_parent"
@@ -93,7 +96,8 @@
                         android:textSize="17dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_sub_btn" />
+                        android:background="@drawable/menu_sub_btn"
+                        android:onClick="showSubMenu"/>
 
                     <Button
                         android:layout_width="fill_parent"
@@ -108,22 +112,8 @@
                         android:textSize="17dp"
                         android:textStyle="bold"
                         android:textColor="#ffffff"
-                        android:background="@drawable/menu_sub_btn" />
-
-                    <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="60dp"
-                        android:text="Back"
-                        android:id="@+id/back"
-                        android:layout_alignParentTop="true"
-                        android:gravity="center"
-                        android:layout_marginTop="20dp"
-                        android:clickable="true"
-                        android:textAlignment="gravity"
-                        android:textSize="17dp"
-                        android:textStyle="bold"
-                        android:textColor="#ffffff"
-                        android:background="@drawable/menu_sub_btn" />
+                        android:background="@drawable/menu_sub_btn"
+                        android:onClick="showSubMenu"/>
 
                 </LinearLayout>
 

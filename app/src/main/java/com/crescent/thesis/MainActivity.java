@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                    startActivity(i);
                }
 
-               else if (button_test.equals("       Quit"))
+               else if (button_test.equals("      Quit"))
                {
                    finish();
                    System.exit(0);

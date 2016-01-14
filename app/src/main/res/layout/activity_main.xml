@@ -40,7 +40,6 @@
                         android:id="@+id/touristAtt"
                         android:background="@drawable/menu_main_btn_left"
                         android:layout_alignParentTop="true"
-                        android:layout_marginTop="110dp"
                         android:gravity="center"
                         android:clickable="true"
                         android:contextClickable="false"
@@ -53,7 +52,7 @@
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="60dp"
-                        android:text="       Credits"
+                        android:text="    Show Map"
                         android:id="@+id/credits"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="30dp"
@@ -70,7 +69,7 @@
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="60dp"
-                        android:text="       Quit"
+                        android:text="      Quit"
                         android:id="@+id/quit"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
@@ -99,7 +98,6 @@
                         android:background="@drawable/menu_main_btn_right"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
-                        android:layout_marginTop="150dp"
                         android:clickable="true"
                         android:textStyle="bold"
                         android:textSize="17dp"
@@ -110,7 +108,7 @@
                     <Button
                         android:layout_width="fill_parent"
                         android:layout_height="60dp"
-                        android:text="Show Map      "
+                        android:text="Credits    "
                         android:id="@+id/map"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
