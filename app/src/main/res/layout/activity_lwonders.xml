@@ -1,0 +1,452 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.crescent.thesis.MainActivity"
+    android:background="@drawable/lwonders_bg">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- The first child in the layout is for the main Activity UI-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/abesfarm" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Abe's Farm\n(Events Village Country\n Cuisine and Spa)"
+                        android:id="@+id/cult1"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"
+                        android:textSize="9dp" />
+
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bale_dutung"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Bale Dutung"
+                        android:id="@+id/cult2"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/candaba_hanging_bridge"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Candaba Hanging Bridge"
+                        android:id="@+id/cult4"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/clark_education"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Clark Education City"
+                        android:id="@+id/cult5"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image6"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/clark_expo"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Clark Expo"
+                        android:id="@+id/cult6"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image7"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/clark_freeport"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Clark Freeport Zone"
+                        android:id="@+id/cult7"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image8"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/dara_falls"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Dara Falls"
+                        android:id="@+id/cult8"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image9"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/del_marco_marble"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Del-Marco Marble\nMarble Products"
+                        android:id="@+id/cult9"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="2dp">
+
+                    <ImageView
+                        android:id="@+id/image10"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/dinosaurs_island"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Dinosaurs Island"
+                        android:id="@+id/cult10"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image11"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/diosdado_macapagal"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Diosdado Macapagal\nIntl Airport"
+                        android:id="@+id/cult11"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image12"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ev_cafe"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Everybody's Cafe"
+                        android:id="@+id/cult12"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image13"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hilaga_cultural_village"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Hilaga Cultural Village"
+                        android:id="@+id/cult13"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image14"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pampangas_best"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Pampanga's Best"
+                        android:id="@+id/cult14"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image15"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pampanga_agricultural_college"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Pampanga Agricultural College"
+                        android:id="@+id/cult15"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/basa_air_base"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Basa Air Base"
+                        android:id="@+id/cult3"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image16"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/nayong_pilipino"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Sisig sa Pampanga"
+                        android:id="@+id/cult16"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

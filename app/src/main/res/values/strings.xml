@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Thesis</string>
+    <string name="app_name">FunPanga</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_main">MainActivity</string>
 
@@ -8,4 +8,6 @@
     <string name="title_activity_tourist_att_menu">tourist_att_menu</string>
     <string name="title_activity_cultural">cultural</string>
     <string name="title_activity_show_places">showPlaces</string>
+    <string name="title_activity_lwonders">lwonders</string>
+    <string name="title_activity_show_lwonders">show_lwonders</string>
 </resources>

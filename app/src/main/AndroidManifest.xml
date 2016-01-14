@@ -50,6 +50,14 @@
             android:name=".showPlaces"
             android:label="@string/title_activity_show_places" >
         </activity>
+        <activity
+            android:name=".lwonders"
+            android:label="@string/title_activity_lwonders" >
+        </activity>
+        <activity
+            android:name=".show_lwonders"
+            android:label="@string/title_activity_show_lwonders" >
+        </activity>
     </application>
 
 </manifest>

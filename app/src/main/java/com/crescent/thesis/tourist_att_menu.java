@@ -47,7 +47,11 @@ public class tourist_att_menu extends AppCompatActivity {
                 startActivity(i);
                 view.startAnimation(buttonClick);
                 break;
-
+            case "Local Wonders":
+                i = new Intent(this, lwonders.class);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
             default:break;
         }
     }
