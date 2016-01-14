@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.AlphaAnimation;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
            public void showSubMenu (View view)
            {
+               AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
                String button_test;
                button_test =((Button) view).getText().toString();
 
@@ -54,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                {
                    Intent i= new Intent(this,tourist_att_menu.class);
                    startActivity(i);
+                   view.startAnimation(buttonClick);
                }
                else if(button_test.equals("Show Map      "))
                {
