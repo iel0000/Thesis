@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.crescent.thesis.MainActivity"
+    android:background="@drawable/ph_locator_map_pampanga">
+
+
+    <!-- The first child in the layout is for the main Activity UI-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Pampanga"
+            android:id="@+id/title"
+            android:layout_marginTop="10dp"
+            android:textColor="#010101"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#9bffffff">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="          Pampanga or Pampaŋga is a province in the Central Luzon region of the Philippines. Lying on the northern shore of Manila Bay, Pampanga is bordered by the provinces of Bataan and Zambales to the west, Tarlac and Nueva Ecija to the north, and Bulacan to the southeast. Its capital is the City of San Fernando; Angeles City, while geographically within Pampanga, is classified as a first-class, highly urbanized city and is governed independently of the province."
+                        android:id="@+id/line1"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#010101"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_marginLeft="7dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\n          The name La Pampanga was given by the Spaniards, who encountered natives living along the banks (pampáng) of the Pampanga River. Its creation in 1571 makes it the first Spanish province on Luzon Island (Cebu is older as it was founded by the Spaniards in 1565). The town of Bacolor in the province briefly served as the Spanish colonial capital when Great Britain invaded Manila as part of the Seven Years' War. At the eve of the Philippine Revolution of 1896, Pampanga was one of eight provinces placed under martial law for rebellion against the Spanish Empire; it is thus represented on the Philippine national flag as one of the eight rays of the sun."
+                        android:id="@+id/line2"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#010101"
+                        android:textStyle="bold"
+                        android:textSize="17dp"
+                        android:layout_marginLeft="7dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\n          Pampanga is served by Clark International Airport, which is in Clark Freeport Zone, some 16 kilometres (9.9 mi) north of the provincial capital. The province is home to two Philippine Air Force air bases, Basa Air Base in Floridabalanca, and the former United States Clark Air Base in Angeles City."
+                    android:id="@+id/line3"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#010101"
+                    android:textStyle="bold"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="7dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

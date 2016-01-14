@@ -122,7 +122,7 @@ public class lwonders extends AppCompatActivity {
                 break;
             case "Del-Marco Marble\nMarble Products":
                 imgBg="delMarcoMarble";
-                title = "Del-Marco Marble Marble Products";
+                title = "Del-Marco Marble\nMarble Products";
                 address = "Friendship Hwy., Angeles City, Angeles City";
                 text = "Innovative designs produced with precision craftsmanship. International selection of marble and granite varieties. Steel reinforcement permanently embedded for additional strength. Stoned carved and frabricated to the highest technical standards\n";
                 i = new Intent(this, show_lwonders.class);
@@ -148,7 +148,7 @@ public class lwonders extends AppCompatActivity {
                 break;
             case "Diosdado Macapagal\nIntl Airport":
                 imgBg="diosMac";
-                title = "Diosdado Macapagal Intl Airport";
+                title = "Diosdado Macapagal\nIntl Airport";
                 address = "Clark, Pampanga";
                 text = "DMIA, a sprawling 2,500 hectare area, has two 3.2 km long runways which are capable of accommodating wide bodied aircraft like the Boeing 747s, Airbus 300 series and military cargo planes, including the C-5 galaxy, a wide ramp area, apron and taxiway facilities as required for world-class standards.";
                 i = new Intent(this, show_lwonders.class);
@@ -200,7 +200,7 @@ public class lwonders extends AppCompatActivity {
                 break;
             case "Pampanga Agricultural College":
                 imgBg="psau";
-                title = "Pampanga Agricultural College";
+                title = "Pampanga Agricultural\nCollege";
                 address = "Magalang, Pampanga";
                 text = "Located at the foot of Mt. Arayat, this state-owned college is the center for agri-based education in the province. It has model farms, housing facilities for its faculty, conference pavilion and a swimming pool for local residents. Its prestine natural environment make way for a relaxing and rejuvenating experience.\n";
                 i = new Intent(this, show_lwonders.class);
@@ -255,11 +255,6 @@ public class lwonders extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
 
         return super.onOptionsItemSelected(item);
     }

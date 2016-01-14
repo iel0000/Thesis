@@ -50,31 +50,36 @@ public class MainActivity extends AppCompatActivity {
            {
                AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
                String button_test;
+               Intent i;
                button_test =((Button) view).getText().toString();
+               switch (button_test){
 
-               if (button_test.equals("       Tourist\n   Attractions"))
-               {
-                   Intent i= new Intent(this,tourist_att_menu.class);
+                   case"       Tourist\n   Attractions":
+                   i= new Intent(this,tourist_att_menu.class);
                    startActivity(i);
                    view.startAnimation(buttonClick);
-               }
-               else if(button_test.equals("Show Map      "))
-               {
-                   Intent i = new Intent(getApplicationContext(), MapsActivity.class);
+               break;
+                   case "Show Map      ":
+                   i = new Intent(getApplicationContext(), MapsActivity.class);
                    String coord1 = "15.156692";
                    String coord2 = "120.5952847";
                    String marker ="Pampanga";
                    i.putExtra("coordX",coord1);
                    i.putExtra("coordY",coord2);
-                   i.putExtra("marker",marker);
+                   i.putExtra("marker", marker);
                    startActivity(i);
-               }
-
-               else if (button_test.equals("      Quit"))
-               {
+               break;
+                   case "About       \nPampanga     ":
+                       i= new Intent(this,aboutPampanga.class);
+                       startActivity(i);
+                       view.startAnimation(buttonClick);
+               break;
+                   case "      Quit":
                    finish();
                    System.exit(0);
+               break;
                }
+
               // Intent i = new Intent(getApplicationContext(), tourist_att_menu.class);
               // startActivity(i);
            }
