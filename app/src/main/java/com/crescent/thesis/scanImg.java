@@ -19,20 +19,8 @@ public class scanImg extends AppCompatActivity {
 
         Typeface font = Typeface.createFromAsset(getAssets(), "namo.ttf");
 
-        Button cultural = (Button) findViewById(R.id.cultural);
-        cultural.setTypeface(font);
-
-        Button lwonders = (Button) findViewById(R.id.lwonders);
-        lwonders.setTypeface(font);
-
-        Button parks = (Button) findViewById(R.id.parks);
-        parks.setTypeface(font);
-
-        Button church = (Button) findViewById(R.id.church);
-        church.setTypeface(font);
-
-        Button lmarks = (Button) findViewById(R.id.salakot);
-        lmarks.setTypeface(font);
+        Button Salakot = (Button) findViewById(R.id.salakot);
+        Salakot.setTypeface(font);
     }
 
     public void showSubMenu (View view) {
@@ -42,7 +30,7 @@ public class scanImg extends AppCompatActivity {
         Intent i;
         switch (button_test) {
 
-            case "Salakot":
+            case "Bayanihan Park":
                 i = new Intent(this, salakot.class);
                 startActivity(i);
                 view.startAnimation(buttonClick);
