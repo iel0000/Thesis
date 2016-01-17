@@ -52,6 +52,11 @@ public class tourist_att_menu extends AppCompatActivity {
                 startActivity(i);
                 view.startAnimation(buttonClick);
                 break;
+            case "Parks":
+                i = new Intent(this, parks.class);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
             default:break;
         }
     }

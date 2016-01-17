@@ -40,8 +40,8 @@ public class show_lwonders extends AppCompatActivity {
                     t.setText(title);
                     add.setText(address);
                     desc.setText(description);
-                    coord1 = "15.2271122";
-                    coord2 = "120.7036989";
+                    coord1 = "15.227107";
+                    coord2 = "120.705893";
                     marker = "Abe's Farm";
 
                     break;
@@ -55,8 +55,8 @@ public class show_lwonders extends AppCompatActivity {
                     add.setText(address);
                     desc.setText(description);
 
-                    coord1 = "15.1291781";
-                    coord2 = "120.592394";
+                    coord1 = "15.1291729";
+                    coord2 = "120.5945881";
                     marker = "Bale Dutung";
                     break;
                 case "candabaHangingBridge":
@@ -83,8 +83,8 @@ public class show_lwonders extends AppCompatActivity {
                     add.setText(address);
                     desc.setText(description);
 
-                    coord1 = "15.2039532";
-                    coord2 = "120.5259163";
+                    coord1 = "15.20404509";
+                    coord2 = "120.52671969";
                     marker = "Clark Education City ";
                     break;
                 case "clarkExpo":
@@ -97,8 +97,8 @@ public class show_lwonders extends AppCompatActivity {
                     add.setText(address);
                     desc.setText(description);
 
-                    coord1 = "15.2041409";
-                    coord2 = "120.5242816";
+                    coord1 = "15.203948";
+                    coord2 = "120.528105";
                     marker = "Clark Expo";
                     break;
                 case "clarkFreeport":
@@ -111,8 +111,8 @@ public class show_lwonders extends AppCompatActivity {
                     add.setText(address);
                     desc.setText(description);
 
-                    coord1 = "15.1817236";
-                    coord2 = "120.5217609";
+                    coord1 = "15.1789517";
+                    coord2 = "120.5183007";
                     marker = "Clark Freeport Zone";
                     break;
                 case "daraFalls":
@@ -125,8 +125,8 @@ public class show_lwonders extends AppCompatActivity {
                     add.setText(address);
                     desc.setText(description);
 
-                    coord1 = "15.1182557";
-                    coord2 = "120.4173285";
+                    coord1 = "15.1182505";
+                    coord2 = "15.1182505";
                     marker = "Dara Falls";
                     break;
                 case "delMarcoMarble":
@@ -140,7 +140,7 @@ public class show_lwonders extends AppCompatActivity {
                     desc.setText(description);
 
                     coord1 = "15.1309";
-                    coord2 = "120.5708113";
+                    coord2 = "120.573";
                     marker = "Del-Marco Marble Marble Products";
                     break;
                 case "dinoIsland":
@@ -154,7 +154,7 @@ public class show_lwonders extends AppCompatActivity {
                     desc.setText(description);
 
                     coord1 = "15.2080546";
-                    coord2 = "120.5428111";
+                    coord2 = "120.5449998";
                     marker = "Dinosaurs Island at Clarkland";
                     break;
                 case "diosMac":
@@ -168,7 +168,7 @@ public class show_lwonders extends AppCompatActivity {
                     desc.setText(description);
 
                     coord1 = "15.18796";
-                    coord2 = "120.5472733";
+                    coord2 = "120.549462";
                     marker = "Diosdado Macapagal Intl Airport";
                     break;
                 case "evCafe":
@@ -181,8 +181,8 @@ public class show_lwonders extends AppCompatActivity {
                     add.setText(address);
                     desc.setText(description);
 
-                    coord1 = "15.1361303";
-                    coord2 = "120.5870676";
+                    coord1 = "15.1355029";
+                    coord2 = "120.5877344";
                     marker = "Everybody's Cafe";
                     break;
                 case "hilCultVil":
@@ -196,7 +196,7 @@ public class show_lwonders extends AppCompatActivity {
                     desc.setText(description);
 
                     coord1 = "15.0494099";
-                    coord2 = "120.6920236";
+                    coord2 = "120.6942123";
                     marker = "Hilaga Cultural Village";
                     break;
                 case "pampBest":
@@ -210,7 +210,7 @@ public class show_lwonders extends AppCompatActivity {
                     desc.setText(description);
 
                     coord1 = "15.0380787";
-                    coord2 = "120.6784415";
+                    coord2 = "120.6806302";
                     marker = "Pampanga's Best";
                     break;
                 case "psau":
@@ -223,8 +223,8 @@ public class show_lwonders extends AppCompatActivity {
                     add.setText(address);
                     desc.setText(description);
 
-                    coord1 = "15.2182565";
-                    coord2 = "120.691129";
+                    coord1 = "15.2189844";
+                    coord2 = "120.6949317";
                     marker = "Pampanga Agricultural College";
                     break;
                 case "sisig":
@@ -238,7 +238,7 @@ public class show_lwonders extends AppCompatActivity {
                     desc.setText(description);
 
                     coord1 = "15.1475674";
-                    coord2 = "120.587591";
+                    coord2 = "120.5897851";
                     marker = "Sisig sa Pampanga";
                     break;
                 case "basaAir":
@@ -252,7 +252,7 @@ public class show_lwonders extends AppCompatActivity {
                     desc.setText(description);
 
                     coord1 = "14.986389";
-                    coord2 = "120.4903059";
+                    coord2 = "120.4925";
                     marker = "Basa Air Base";
                     break;
                 default:

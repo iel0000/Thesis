@@ -44,8 +44,8 @@ public class showPlaces extends AppCompatActivity {
                         /*Show on maps on image click*/
                         btn.setOnClickListener(new View.OnClickListener() {
                             public void onClick(View view) {
-                                String coord1 = "15.0277176";
-                                String coord2 = "120.6815017";
+                                String coord1 = "15.031871";
+                                String coord2 = "120.687923";
                                 String marker = "Gabaldon Schoolhouse";
                                 Intent i = new Intent(getApplicationContext(), MapsActivity.class);
                                 i.putExtra("coordX", coord1);
@@ -67,8 +67,8 @@ public class showPlaces extends AppCompatActivity {
                         desc.setText(description);
                         btn.setOnClickListener(new View.OnClickListener() {
                             public void onClick(View view) {
-                                String coord1 = "15.2044178";
-                                String coord2 = "120.5281023";
+                                String coord1 = "15.204365";
+                                String coord2 = "120.530284";
                                 String marker = "Nayong Pilipino sa Clark";
                                 Intent i = new Intent(getApplicationContext(), MapsActivity.class);
                                 i.putExtra("coordX", coord1);

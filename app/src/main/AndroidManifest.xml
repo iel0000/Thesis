@@ -105,16 +105,28 @@
         </activity>
         <activity
             android:name=".scanImg"
-            android:configChanges="screenSize|orientation"
-            android:label="@string/title_activity_scan_img" >
+            android:label="@string/title_activity_scan_img"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".salakot"
-            android:label="@string/title_activity_salakot" >
+            android:configChanges="screenSize|orientation"
+            android:label="@string/title_activity_salakot"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".parks"
-            android:label="@string/title_activity_parks" >
+            android:label="@string/title_activity_parks"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".show_parks"
+            android:label="@string/title_activity_show_parks"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".showAllmaps"
+            android:label="@string/title_activity_show_allmaps" >
         </activity>
     </application>
 

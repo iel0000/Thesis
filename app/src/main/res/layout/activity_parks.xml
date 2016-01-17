@@ -4,9 +4,200 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.crescent.thesis.parks">
+    tools:context="com.crescent.thesis.parks"
+    android:background="@drawable/parks_bg">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!-- The first child in the layout is for the main Activity UI-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/air_force" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Air Force City\nAircraft Park"
+                        android:id="@+id/park1"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"
+                        android:textSize="12dp" />
+
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/angeles_industrial_park"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Angeles Industrial\nPark"
+                        android:id="@+id/park2"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bayanihan"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Bayanihan Park"
+                        android:id="@+id/park4"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="2dp">
+
+                    <ImageView
+                        android:id="@+id/image10"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/bicentenial"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Bicentennial Park"
+                        android:id="@+id/park10"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image11"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/clark_parade_ground"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Clark Parade Ground"
+                        android:id="@+id/cult11"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image12"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/arayat_national_park"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Mt. Arayat National\nPark"
+                        android:id="@+id/cult12"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
 
 </RelativeLayout>

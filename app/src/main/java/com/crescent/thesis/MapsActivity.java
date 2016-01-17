@@ -6,6 +6,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -47,7 +48,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 */
                 // Add a marker in x,y coord, and move the camera.
                 LatLng loc = new LatLng(x1, y1);
-                map.addMarker(new MarkerOptions().position(loc).title(marker));
+                map.addMarker(new MarkerOptions().position(loc).title(marker).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN)));
                 map.moveCamera(CameraUpdateFactory.newLatLngZoom(loc, 15));
 
                 map.setMyLocationEnabled(true);

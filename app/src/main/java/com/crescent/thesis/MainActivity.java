@@ -79,6 +79,14 @@ public class MainActivity extends AppCompatActivity {
                        startActivity(i);
                        view.startAnimation(buttonClick);
                break;
+                   case "Credits    ":
+
+                       break;
+                   case "    Show Map":
+                       i= new Intent(this,showAllmaps.class);
+                       startActivity(i);
+                       view.startAnimation(buttonClick);
+                       break;
                    case "Quit    ":
                    view.startAnimation(buttonClick);
                    finish();
