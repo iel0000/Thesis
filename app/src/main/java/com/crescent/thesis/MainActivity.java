@@ -74,7 +74,13 @@ public class MainActivity extends AppCompatActivity {
                        startActivity(i);
                        view.startAnimation(buttonClick);
                break;
-                   case "      Quit":
+                   case "   Scan\n   Images":
+                       i= new Intent(this,scanImg.class);
+                       startActivity(i);
+                       view.startAnimation(buttonClick);
+               break;
+                   case "Quit    ":
+                   view.startAnimation(buttonClick);
                    finish();
                    System.exit(0);
                break;

@@ -11,4 +11,7 @@
     <string name="title_activity_lwonders">lwonders</string>
     <string name="title_activity_show_lwonders">show_lwonders</string>
     <string name="title_activity_about_pampanga">aboutPampanga</string>
+    <string name="title_activity_scan_img">scanImg</string>
+    <string name="title_activity_salakot">salakot</string>
+    <string name="title_activity_parks">parks</string>
 </resources>
