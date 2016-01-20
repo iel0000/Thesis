@@ -33,7 +33,7 @@ public class parks extends AppCompatActivity {
                 imgBg="airForce";
                 title = "Air Force City\nAircraft Park";
                 address = "Clark, Pampanga";
-                text = "The park was developed to give local and foreign visitors to Clark an opportunity to witness a variety of aircrafts and other aviation equipment used by the Philippine Air Force (600th Air Base Wing). On display in an open field along CM Recto Avenue are a host of flying machines. A favorite spot for local and foreign visitors.";
+                text = "    The park was developed to give local and foreign visitors to Clark an opportunity to witness a variety of aircrafts and other aviation equipment used by the Philippine Air Force (600th Air Base Wing). On display in an open field along CM Recto Avenue are a host of flying machines. A favorite spot for local and foreign visitors.";
                 i = new Intent(this, show_parks.class);
                 i.putExtra("img",imgBg);
                 i.putExtra("title",title);
@@ -46,7 +46,7 @@ public class parks extends AppCompatActivity {
                 imgBg="angIndustrial";
                 title = "Angeles Industrial\nPark";
                 address = "Bo. Calibutbut, Bacolor, Pampanga";
-                text = "Light to medium, non-pollutant, export-oriented and labor-intentsive industries. High, medium or low voltage requirements sourced from the Angeles Electric Corp., 6th largest privately owned electric utility in the Philippines.";
+                text = "    Light to medium, non-pollutant, export-oriented and labor-intentsive industries. High, medium or low voltage requirements sourced from the Angeles Electric Corp., 6th largest privately owned electric utility in the Philippines.";
                 i = new Intent(this, show_parks.class);
                 i.putExtra("img",imgBg);
                 i.putExtra("title",title);
@@ -59,7 +59,7 @@ public class parks extends AppCompatActivity {
                 imgBg="bayanihan";
                 title = "Bayanihan Park";
                 address = "Clark, Pampanga";
-                text = "Located in front of Clark main gate and formerly known as Astro Park, Bayanihan Park is a beehive of activities everyday from basketball, volleball to kite flying. It is a perfect venue for carnival fairs, religious rites and political rallies.";
+                text = "    Located in front of Clark main gate and formerly known as Astro Park, Bayanihan Park is a beehive of activities everyday from basketball, volleball to kite flying. It is a perfect venue for carnival fairs, religious rites and political rallies.";
                 i = new Intent(this, show_parks.class);
                 i.putExtra("img",imgBg);
                 i.putExtra("title",title);
@@ -72,7 +72,7 @@ public class parks extends AppCompatActivity {
                 imgBg="bicentennial";
                 title = "Bicentennial Park";
                 address = "Clark, Pampanga";
-                text = "The Bicentennial Park is a favorite place for picnickers and nature lovers as it is lined with shady acacia trees and ornamentals built by Clark Development Corporation as an alternative picnic area for local and foreign visitors into Clark. It has become a favorite place for company outings and events.";
+                text = "    The Bicentennial Park is a favorite place for picnickers and nature lovers as it is lined with shady acacia trees and ornamentals built by Clark Development Corporation as an alternative picnic area for local and foreign visitors into Clark. It has become a favorite place for company outings and events.";
                 i = new Intent(this, show_parks.class);
                 i.putExtra("img",imgBg);
                 i.putExtra("title",title);
@@ -85,7 +85,7 @@ public class parks extends AppCompatActivity {
                 imgBg="clarkParade";
                 title = "Clark Parade Ground";
                 address = "Clark, Pampanga";
-                text = "Originally this area was called \"Pati\" by the Aetas and was then a treeless pastureland. In 1897, during the revolution against Spain, Kapampangan katipuneros used this area as a gathering point for staging attacks against Spanish detachments and patrols.";
+                text = "    Originally this area was called \"Pati\" by the Aetas and was then a treeless pastureland. In 1897, during the revolution against Spain, Kapampangan katipuneros used this area as a gathering point for staging attacks against Spanish detachments and patrols.";
                 i = new Intent(this, show_parks.class);
                 i.putExtra("img",imgBg);
                 i.putExtra("title",title);
@@ -98,7 +98,7 @@ public class parks extends AppCompatActivity {
                 imgBg="arayatPark";
                 title = "Mt. Arayat National\nPark";
                 address = "Arayat, Pampanga";
-                text = "Located in Brgy. San Juan Bano, Mt. Arayat National Park is an ideal site for picnickers and nature lovers with its quaint environs under cool shades of lush green foliage, mountain breeze, natural waterfalls and three standard-sized swimming pools. It is two kilometers away from the town proper of Arayat and about forty-five minutes drive from Angeles City.";
+                text = "    Located in Brgy. San Juan Bano, Mt. Arayat National Park is an ideal site for picnickers and nature lovers with its quaint environs under cool shades of lush green foliage, mountain breeze, natural waterfalls and three standard-sized swimming pools. It is two kilometers away from the town proper of Arayat and about forty-five minutes drive from Angeles City.";
                 i = new Intent(this, show_parks.class);
                 i.putExtra("img",imgBg);
                 i.putExtra("title",title);

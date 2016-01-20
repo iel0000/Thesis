@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
         Button about = (Button) findViewById(R.id.aboutPampanga);
         about.setTypeface(font);
 
+        Button wiki = (Button) findViewById(R.id.wiki);
+        wiki.setTypeface(font);
+
+        Button fest = (Button) findViewById(R.id.fest);
+        fest.setTypeface(font);
+
         Button credits = (Button) findViewById(R.id.credits);
         credits.setTypeface(font);
 
@@ -33,18 +39,7 @@ public class MainActivity extends AppCompatActivity {
         Button quit = (Button) findViewById(R.id.quit);
         quit.setTypeface(font);
     }
-       // touristAtt.setOnClickListener(new View.OnClickListener() {
-           /* public void onClick(View view) {
-                    String coord1 = "15.1680832";
-                    String coord2 = "120.5795193";
-                    String marker ="SM Clark";
-                    Intent i = new Intent(getApplicationContext(), MapsActivity.class);
-                    i.putExtra("coordX",coord1);
-                    i.putExtra("coordY",coord2);
-                    i.putExtra("marker",marker);
-                    startActivity(i);
-            }
-        });*/
+
 
            public void showSubMenu (View view)
            {
@@ -74,20 +69,27 @@ public class MainActivity extends AppCompatActivity {
                        startActivity(i);
                        view.startAnimation(buttonClick);
                break;
-                   case "   Scan\n   Images":
+                   case "Scan     \nImages   ":
                        i= new Intent(this,scanImg.class);
                        startActivity(i);
                        view.startAnimation(buttonClick);
                break;
+                   case "    Festivals":
+                       i= new Intent(this,fest.class);
+                       startActivity(i);
+                       view.startAnimation(buttonClick);
+               break;
                    case "Credits    ":
-
+                       i= new Intent(this,creds.class);
+                       startActivity(i);
+                       view.startAnimation(buttonClick);
                        break;
                    case "    Show Map":
                        i= new Intent(this,showAllmaps.class);
                        startActivity(i);
                        view.startAnimation(buttonClick);
                        break;
-                   case "Quit    ":
+                   case "     Quit":
                    view.startAnimation(buttonClick);
                    finish();
                    System.exit(0);

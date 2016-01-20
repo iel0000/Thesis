@@ -109,7 +109,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name=".salakot"
+            android:name=".augmentActivity"
             android:configChanges="screenSize|orientation"
             android:label="@string/title_activity_salakot"
             android:screenOrientation="portrait" >
@@ -127,6 +127,18 @@
         <activity
             android:name=".showAllmaps"
             android:label="@string/title_activity_show_allmaps" >
+        </activity>
+        <activity
+            android:name=".fest"
+            android:label="@string/title_activity_fest" >
+        </activity>
+        <activity
+            android:name=".creds"
+            android:label="@string/title_activity_creds" >
+        </activity>
+        <activity
+            android:name=".show_festiv"
+            android:label="@string/title_activity_show_festiv" >
         </activity>
     </application>
 

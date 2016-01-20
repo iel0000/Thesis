@@ -17,4 +17,7 @@
     <string name="title_activity_show_parks">show_parks</string>
     <string name="title_activity_pathfind">Map</string>
     <string name="title_activity_show_allmaps">Map</string>
+    <string name="title_activity_fest">fest</string>
+    <string name="title_activity_creds">creds</string>
+    <string name="title_activity_show_festiv">show_festiv</string>
 </resources>

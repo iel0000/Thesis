@@ -21,6 +21,9 @@ public class scanImg extends AppCompatActivity {
 
         Button Salakot = (Button) findViewById(R.id.salakot);
         Salakot.setTypeface(font);
+
+        Button railway = (Button) findViewById(R.id.sf_railway);
+        railway.setTypeface(font);
     }
 
     public void showSubMenu (View view) {
@@ -28,10 +31,20 @@ public class scanImg extends AppCompatActivity {
         String button_test;
         button_test = ((Button) view).getText().toString();
         Intent i;
+        String index="";
         switch (button_test) {
 
             case "Bayanihan Park":
-                i = new Intent(this, salakot.class);
+                index="salakot/index.html";
+                i = new Intent(this, augmentActivity.class);
+                i.putExtra("index",index);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
+            case "San Fernando\nRailway Station":
+                index = "sfRailway/index.html";
+                i = new Intent(this, augmentActivity.class);
+                i.putExtra("index",index);
                 startActivity(i);
                 view.startAnimation(buttonClick);
                 break;

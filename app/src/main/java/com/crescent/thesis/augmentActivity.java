@@ -10,7 +10,7 @@ import com.wikitude.architect.StartupConfiguration;
 
 import java.io.IOException;
 
-public class salakot extends AppCompatActivity {
+public class augmentActivity extends AppCompatActivity {
 
     ArchitectView architectView;
 
@@ -29,10 +29,16 @@ public class salakot extends AppCompatActivity {
     @Override
     protected void onPostCreate(final Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
+        Bundle extras = getIntent().getExtras();
+        String index = extras.getString("index");
         if (this.architectView != null) {
             this.architectView.onPostCreate();
             try {
-                this.architectView.load("salakot/index.html");
+                if(extras!=null)
+
+                {
+                    this.architectView.load(index);
+                }
 
             } catch (IOException e1) {
                 e1.printStackTrace();

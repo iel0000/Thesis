@@ -29,6 +29,9 @@ public class showAllmaps extends FragmentActivity implements OnMapReadyCallback 
 
     @Override
     public void onMapReady(GoogleMap map) {
+        LatLng Pampanga = new LatLng(15.156692, 120.5952847);
+        map.moveCamera(CameraUpdateFactory.newLatLng(Pampanga));
+        map.getUiSettings().setZoomControlsEnabled(true);
 
         /* show cultural marks on map */
         double xCultural[] = {15.031871d,15.204365d};
@@ -96,10 +99,6 @@ public class showAllmaps extends FragmentActivity implements OnMapReadyCallback 
             map.addMarker(new MarkerOptions().position(loc).title(markerMuse[i]).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
             map.moveCamera(CameraUpdateFactory.newLatLngZoom(loc, 15));
         }
-
-        LatLng Pampanga = new LatLng(15.156692, 120.5952847);
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(Pampanga, 10));
-        map.getUiSettings().setZoomControlsEnabled(true);
 
     }
 

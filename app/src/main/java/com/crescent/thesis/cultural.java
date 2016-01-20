@@ -33,7 +33,7 @@ public class cultural extends AppCompatActivity {
                 imgBg="gabaldon";
                 title = "Gabaldon Schoolhouse";
                 address = "City of San Fernando, Pampanga";
-                text = "The Gabaldon school buildings(now known as Pampanga High School) named after Assemblyman Isauro Gabaldon of Nueva Ecija who authored Act 1801 that set aside P1 million for their construction, are known as the \"Parthenons\" of the golden years of Philippine public education system. Three, perhaps more, generations of Filipinos learned the Three Rs (reading, 'riting and 'rithmetic) in these historic structures which now count by the thousands and are spread out all over the archipelago.\n";
+                text = "    The Gabaldon school buildings(now known as Pampanga High School) named after Assemblyman Isauro Gabaldon of Nueva Ecija who authored Act 1801 that set aside P1 million for their construction, are known as the \"Parthenons\" of the golden years of Philippine public education system. Three, perhaps more, generations of Filipinos learned the Three Rs (reading, 'riting and 'rithmetic) in these historic structures which now count by the thousands and are spread out all over the archipelago.\n";
                 i = new Intent(this, showPlaces.class);
                 i.putExtra("img",imgBg);
                 i.putExtra("title",title);
@@ -47,7 +47,7 @@ public class cultural extends AppCompatActivity {
                 imgBg="nayong_pilipino";
                 title = "Nayong Pilipino sa Clark";
                 address = "Centennial Rd., Clark Freeport Zone, Clark, Pampanga";
-                text = "At Nayong Pilipino sa Clark, we feature our colorful culture. Visit the Precolonial and the Colonial Eras of our history. See our rendition of our mythical Malakas and Maganda. Visit the miniature replicas of our scenic and historic Philippine landmarks.\n";
+                text = "    At Nayong Pilipino sa Clark, we feature our colorful culture. Visit the Precolonial and the Colonial Eras of our history. See our rendition of our mythical Malakas and Maganda. Visit the miniature replicas of our scenic and historic Philippine landmarks.\n";
                 i = new Intent(this, showPlaces.class);
                 i.putExtra("img",imgBg);
                 i.putExtra("title",title);

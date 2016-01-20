@@ -12,7 +12,7 @@ var World = {
 			Important: If you replace the tracker file with your own, make sure to change the target name accordingly.
 			Use a specific target name to respond only to a certain target or use a wildcard to respond to any or a certain group of targets.
 		*/
-		this.tracker = new AR.ClientTracker("assets/tracker2.wtc", {
+		this.tracker = new AR.ClientTracker("assets/tracker.wtc", {
 			onLoaded: this.worldLoaded
 		});
 
@@ -21,7 +21,7 @@ var World = {
 		*/
 
 		/* Create overlay for page one */
-		this.modelCar = new AR.Model("assets/bayanihan.wt3", {
+		this.modelCar = new AR.Model("assets/sf_railroad.wt3", {
             onLoaded: this.loadingStep,
             scale: {
                 x: 0.045,
