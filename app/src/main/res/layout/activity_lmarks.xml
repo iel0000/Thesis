@@ -4,8 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.crescent.thesis.fest"
-    android:background="@drawable/fest_bg">
+    tools:context="com.crescent.thesis.lmarks">
 
     <ScrollView
         android:id="@+id/ScrollView01"
@@ -38,12 +37,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/el_circulo" />
+                        android:src="@drawable/archdiocesan_chancery" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="El Circulo\nFernandino"
+                        android:text="Archdiocesan\nChancery"
                         android:id="@+id/cult1"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
@@ -63,13 +62,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/sinukwan_festival"
+                        android:src="@drawable/buluyut_bridge"
                         android:layout_marginTop="20dp"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Sinukwan Festival"
+                        android:text="Buluyut Bridge"
                         android:id="@+id/cult2"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
@@ -79,7 +78,7 @@
                         android:contextClickable="false"
                         android:textAlignment="gravity"
                         android:textColor="#ffffff"
-                        android:textSize="11dp"
+                        android:textSize="13dp"
                         android:textStyle="bold"
                         android:onClick="showplaces"/>
 
@@ -88,13 +87,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/makatapak_festival"
+                        android:src="@drawable/crissot_monument"
                         android:layout_marginTop="20dp"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Makatapak Festival"
+                        android:text="Crissot Monument"
                         android:id="@+id/cult4"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
@@ -113,13 +112,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/hot_air_balloon"
+                        android:src="@drawable/el_kabayo"
                         android:layout_marginTop="20dp"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Philippine Hot Air\nBalloon Festival"
+                        android:text="El Kabayo"
                         android:id="@+id/cult5"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
@@ -132,57 +131,6 @@
                         android:textSize="11dp"
                         android:textStyle="bold"
                         android:onClick="showplaces"/>
-
-                    <ImageView
-                        android:id="@+id/image6"
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/sabuaga_festival"
-                        android:layout_marginTop="20dp"/>
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:text="Sabuaga Festival"
-                        android:id="@+id/cult6"
-                        android:background="@drawable/menu_sub_btn"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginTop="10dp"
-                        android:gravity="center"
-                        android:clickable="true"
-                        android:contextClickable="false"
-                        android:textAlignment="gravity"
-                        android:textColor="#ffffff"
-                        android:textSize="11dp"
-                        android:textStyle="bold"
-                        android:onClick="showplaces"/>
-
-                    <ImageView
-                        android:id="@+id/image7"
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/caragan_festival"
-                        android:layout_marginTop="20dp"/>
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:text="Caragan Festival"
-                        android:id="@+id/cult"
-                        android:background="@drawable/menu_sub_btn"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginTop="10dp"
-                        android:gravity="center"
-                        android:clickable="true"
-                        android:contextClickable="false"
-                        android:textAlignment="gravity"
-                        android:textColor="#ffffff"
-                        android:textSize="11dp"
-                        android:textStyle="bold"
-                        android:onClick="showplaces"/>
-
 
                 </LinearLayout>
 
@@ -199,12 +147,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/cricifixion_rites"/>
+                        android:src="@drawable/macario_arnedo_park"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="San Pedro Cutud Cricifixion Rites"
+                        android:text="Macario Arnedo Park"
                         android:id="@+id/cult10"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
@@ -223,13 +171,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/pyestang_tugak"
+                        android:src="@drawable/bayanihan"
                         android:layout_marginTop="20dp"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Pyestang Tugak"
+                        android:text="Salakot Arch"
                         android:id="@+id/cult11"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
@@ -239,7 +187,7 @@
                         android:contextClickable="false"
                         android:textAlignment="gravity"
                         android:textColor="#ffffff"
-                        android:textSize="10dp"
+                        android:textSize="13dp"
                         android:textStyle="bold"
                         android:onClick="showplaces"/>
 
@@ -248,13 +196,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/giant_lantern"
+                        android:src="@drawable/san_fernando_railway_station"
                         android:layout_marginTop="20dp"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Giant Lantern\nFestival"
+                        android:text="San Fernando\nRailway Station"
                         android:id="@+id/cult12"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
@@ -273,64 +221,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/duman_festival"
+                        android:src="@drawable/president_roxas_marker"
                         android:layout_marginTop="20dp"/>
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Duman Festival"
+                        android:text="President Roxas Marker"
                         android:id="@+id/cult13"
-                        android:background="@drawable/menu_sub_btn"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginTop="10dp"
-                        android:gravity="center"
-                        android:clickable="true"
-                        android:contextClickable="false"
-                        android:textAlignment="gravity"
-                        android:textColor="#ffffff"
-                        android:textSize="11dp"
-                        android:textStyle="bold"
-                        android:onClick="showplaces"/>
-
-                    <ImageView
-                        android:id="@+id/image14"
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/fluvial_festival"
-                        android:layout_marginTop="20dp"/>
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:text="Apung Iru Fluvial\nFestival"
-                        android:id="@+id/cult14"
-                        android:background="@drawable/menu_sub_btn"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginTop="10dp"
-                        android:gravity="center"
-                        android:clickable="true"
-                        android:contextClickable="false"
-                        android:textAlignment="gravity"
-                        android:textColor="#ffffff"
-                        android:textSize="11dp"
-                        android:textStyle="bold"
-                        android:onClick="showplaces"/>
-
-                    <ImageView
-                        android:id="@+id/image15"
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/ibon_ebun"
-                        android:layout_marginTop="20dp"/>
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:text="Ibun-ebun Festival"
-                        android:id="@+id/cult15"
                         android:background="@drawable/menu_sub_btn"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="10dp"
@@ -350,5 +248,6 @@
 
         </RelativeLayout>
     </ScrollView>
+
 
 </RelativeLayout>

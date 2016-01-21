@@ -140,6 +140,30 @@
             android:name=".show_festiv"
             android:label="@string/title_activity_show_festiv" >
         </activity>
+        <activity
+            android:name=".church"
+            android:label="@string/title_activity_church" >
+        </activity>
+        <activity
+            android:name=".museum"
+            android:label="@string/title_activity_museum" >
+        </activity>
+        <activity
+            android:name=".lmarks"
+            android:label="@string/title_activity_lmarks" >
+        </activity>
+        <activity
+            android:name=".show_lmarks"
+            android:label="@string/title_activity_show_lmarks" >
+        </activity>
+        <activity
+            android:name=".show_museum"
+            android:label="@string/title_activity_show_museum" >
+        </activity>
+        <activity
+            android:name=".show_church"
+            android:label="@string/title_activity_show_church" >
+        </activity>
     </application>
 
 </manifest>

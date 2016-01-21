@@ -20,4 +20,10 @@
     <string name="title_activity_fest">fest</string>
     <string name="title_activity_creds">creds</string>
     <string name="title_activity_show_festiv">show_festiv</string>
+    <string name="title_activity_church">church</string>
+    <string name="title_activity_museum">museum</string>
+    <string name="title_activity_lmarks">lmarks</string>
+    <string name="title_activity_show_lmarks">show_lmarks</string>
+    <string name="title_activity_show_museum">show_museum</string>
+    <string name="title_activity_show_church">show_church</string>
 </resources>

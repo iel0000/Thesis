@@ -33,6 +33,9 @@ public class tourist_att_menu extends AppCompatActivity {
         Button lmarks = (Button) findViewById(R.id.lmarks);
         lmarks.setTypeface(font);
 
+        Button museum = (Button) findViewById(R.id.museum);
+        museum.setTypeface(font);
+
     }
 
     public void showSubMenu (View view) {
@@ -54,6 +57,21 @@ public class tourist_att_menu extends AppCompatActivity {
                 break;
             case "Parks":
                 i = new Intent(this, parks.class);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
+            case "Church":
+                i = new Intent(this, church.class);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
+            case "Land Marks":
+                i = new Intent(this, lmarks.class);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
+            case "Museum":
+                i = new Intent(this, museum.class);
                 startActivity(i);
                 view.startAnimation(buttonClick);
                 break;
