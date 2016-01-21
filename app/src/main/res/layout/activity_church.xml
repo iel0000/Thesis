@@ -7,5 +7,446 @@
     tools:context="com.crescent.thesis.church"
     android:background="@drawable/church_bg">
 
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
+        <!-- The first child in the layout is for the main Activity UI-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="2dp">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/holy_rosary_parish_church" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Holy Rosary\nParish Church"
+                        android:id="@+id/cult1"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"
+                        android:textSize="11dp" />
+
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/immaculate"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Immaculate Conception\nParish Church"
+                        android:id="@+id/cult2"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/metropolitan_catherdral_sf"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Metropolitan Catherdral of San Fernando"
+                        android:id="@+id/cult4"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image5"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/church_bg"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Nuestra Senyora del\nPila Parish Church"
+                        android:id="@+id/cult5"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image6"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ourlady"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Our Lady of Divine\nGrace Parish Church"
+                        android:id="@+id/cult6"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image7"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/san_guillermo_parish_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="San Guillermo\nParish Church"
+                        android:id="@+id/cult7"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image8"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/san_luis_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="San Luis Church"
+                        android:id="@+id/cult8"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image9"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/apalit_parochial_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Apalit Parochial Church"
+                        android:id="@+id/cult9"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="2dp">
+
+                    <ImageView
+                        android:id="@+id/image10"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/st_andrew_parish_church"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="St. Andrew\nParish Church"
+                        android:id="@+id/cult10"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image11"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/st_anne_parish_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="St. Anne\nParish Church"
+                        android:id="@+id/cult11"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image12"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/san_agustin_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="San Agustin Church"
+                        android:id="@+id/cult12"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image13"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/san_bartolome_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="San Bartolome Church"
+                        android:id="@+id/cult13"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image14"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/st_catherine_alexandra_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="St. Catherine \nAlexandra Church"
+                        android:id="@+id/cult14"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image15"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/st_joseph_parish_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="St. Joseph\nParish Church"
+                        android:id="@+id/cult15"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/sta_lucia_parish_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Sta. Lucia\nParish Church"
+                        android:id="@+id/cult3"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                    <ImageView
+                        android:id="@+id/image16"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/minalin_church"
+                        android:layout_marginTop="20dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Minalin Church"
+                        android:id="@+id/cult16"
+                        android:background="@drawable/menu_sub_btn"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:contextClickable="false"
+                        android:textAlignment="gravity"
+                        android:textColor="#ffffff"
+                        android:textSize="11dp"
+                        android:textStyle="bold"
+                        android:onClick="showplaces"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
