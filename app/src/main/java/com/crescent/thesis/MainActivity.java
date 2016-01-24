@@ -30,9 +30,6 @@ public class MainActivity extends AppCompatActivity {
         Button fest = (Button) findViewById(R.id.fest);
         fest.setTypeface(font);
 
-        Button credits = (Button) findViewById(R.id.credits);
-        credits.setTypeface(font);
-
         Button map = (Button) findViewById(R.id.map);
         map.setTypeface(font);
 
@@ -79,17 +76,12 @@ public class MainActivity extends AppCompatActivity {
                        startActivity(i);
                        view.startAnimation(buttonClick);
                break;
-                   case "Credits    ":
-                       i= new Intent(this,creds.class);
-                       startActivity(i);
-                       view.startAnimation(buttonClick);
-                       break;
                    case "    Show Map":
                        i= new Intent(this,showAllmaps.class);
                        startActivity(i);
                        view.startAnimation(buttonClick);
                        break;
-                   case "     Quit":
+                   case "Quit   ":
                    view.startAnimation(buttonClick);
                    finish();
                    System.exit(0);
