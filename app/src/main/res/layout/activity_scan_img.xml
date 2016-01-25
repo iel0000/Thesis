@@ -22,7 +22,8 @@
                 android:orientation="horizontal"
                 android:layout_weight="2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
 
                 <LinearLayout
                     android:layout_height="fill_parent"
@@ -52,6 +53,54 @@
                         android:layout_height="60dp"
                         android:text="San Fernando\nRailway Station"
                         android:id="@+id/sf_railway"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:textAlignment="gravity"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/menu_sub_btn"
+                        android:onClick="showSubMenu"/>
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:text="Dara Falls"
+                        android:id="@+id/darafalls"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:textAlignment="gravity"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/menu_sub_btn"
+                        android:onClick="showSubMenu"/>
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:text="Clark Museum"
+                        android:id="@+id/museum"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:clickable="true"
+                        android:textAlignment="gravity"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/menu_sub_btn"
+                        android:onClick="showSubMenu"/>
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp"
+                        android:text="Gabaldon Schoolhouse"
+                        android:id="@+id/gabaldon"
                         android:layout_alignParentTop="true"
                         android:gravity="center"
                         android:layout_marginTop="20dp"

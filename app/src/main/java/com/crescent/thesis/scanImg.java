@@ -16,14 +16,6 @@ public class scanImg extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan_img);
-
-        Typeface font = Typeface.createFromAsset(getAssets(), "namo.ttf");
-
-        Button Salakot = (Button) findViewById(R.id.salakot);
-        Salakot.setTypeface(font);
-
-        Button railway = (Button) findViewById(R.id.sf_railway);
-        railway.setTypeface(font);
     }
 
     public void showSubMenu (View view) {
@@ -43,6 +35,27 @@ public class scanImg extends AppCompatActivity {
                 break;
             case "San Fernando\nRailway Station":
                 index = "sfRailway/index.html";
+                i = new Intent(this, augmentActivity.class);
+                i.putExtra("index",index);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
+            case "Dara Falls":
+                index = "daraFalls/index.html";
+                i = new Intent(this, augmentActivity.class);
+                i.putExtra("index",index);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
+            case "Clark Museum":
+                index = "clarkMuseum/index.html";
+                i = new Intent(this, augmentActivity.class);
+                i.putExtra("index",index);
+                startActivity(i);
+                view.startAnimation(buttonClick);
+                break;
+            case "Gabaldon Schoolhouse":
+                index = "gabaldon/index.html";
                 i = new Intent(this, augmentActivity.class);
                 i.putExtra("index",index);
                 startActivity(i);

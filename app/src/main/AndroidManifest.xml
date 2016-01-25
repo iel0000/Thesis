@@ -126,43 +126,53 @@
         </activity>
         <activity
             android:name=".showAllmaps"
-            android:label="@string/title_activity_show_allmaps" >
+            android:label="@string/title_activity_show_allmaps"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".fest"
-            android:label="@string/title_activity_fest" >
+            android:label="@string/title_activity_fest"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".creds"
-            android:label="@string/title_activity_creds" >
+            android:label="@string/title_activity_creds"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".show_festiv"
-            android:label="@string/title_activity_show_festiv" >
+            android:label="@string/title_activity_show_festiv"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".church"
-            android:label="@string/title_activity_church" >
+            android:label="@string/title_activity_church"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".museum"
-            android:label="@string/title_activity_museum" >
+            android:label="@string/title_activity_museum"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".lmarks"
-            android:label="@string/title_activity_lmarks" >
+            android:label="@string/title_activity_lmarks"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".show_lmarks"
-            android:label="@string/title_activity_show_lmarks" >
+            android:label="@string/title_activity_show_lmarks"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".show_museum"
-            android:label="@string/title_activity_show_museum" >
+            android:label="@string/title_activity_show_museum"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".show_church"
-            android:label="@string/title_activity_show_church" >
+            android:label="@string/title_activity_show_church"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

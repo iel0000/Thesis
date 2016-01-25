@@ -21,7 +21,7 @@ var World = {
 		*/
 
 		/* Create overlay for page one */
-		this.modelCar = new AR.Model("assets/sf_railroad.wt3", {
+		this.modelCar = new AR.Model("assets/museum.wt3", {
             onLoaded: this.loadingStep,
             scale: {
                 x: 0.045,
